@@ -48,10 +48,6 @@ LiquidLabsApp/
 ---
 
 ## 🗄️ SQL Server Setup
-
-### 1. Requirements
-- Install [SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/download-sql-server)
-
   
 ### 2. Create Database and Table
 
