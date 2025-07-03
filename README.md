@@ -47,32 +47,22 @@ This project is a .NET 8 Web API that fetches user data from a public API (`http
 
 ---
 
-## 🗄️ SQL Server Setup
-  
-### 2. Create Database and Table
+🗄️ Create Database and Table
+Open SQL Server Management Studio (SSMS) or your preferred SQL tool.
 
-1. Open your MSSQL
-2. Run:
+Run the following SQL commands to create the database:
 
-CREATE DATABASE UserDb;
-GO
+<pre> CREATE DATABASE UserDb; GO USE UserDb; GO </pre>
+Run the table creation script from sql/create_tables.sql:
 
-USE UserDb;
-GO
-Run schema from sql/create_tables.sql:
+<pre> CREATE TABLE Users ( Id INT PRIMARY KEY, Name NVARCHAR(100) NOT NULL, Username NVARCHAR(100), Email NVARCHAR(100) ); </pre>
+🔧 Configure Database Connection String
+Open the appsettings.json file and update the connection string to match your SQL Server instance:
 
-sql
+json
 Copy
 Edit
-CREATE TABLE Users (
-    Id INT PRIMARY KEY,
-    Name NVARCHAR(100) NOT NULL,
-    Username NVARCHAR(100),
-    Email NVARCHAR(100)
-);
-
-### 3. appsettings.json database connection string 
-
 "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=UserDb;User Id=sa;Password=YourStrong!Passw0rd;"
-  },
+  "DefaultConnection": "Server=localhost;Database=UserDb;User Id=sa;Password=YourStrong!Passw0rd;"
+}
+📝 Replace User Id and Password with your actual SQL Server credentials.
