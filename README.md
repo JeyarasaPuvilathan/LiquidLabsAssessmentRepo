@@ -32,7 +32,7 @@ This project is a .NET 8 Web API that fetches user data from a public API (`http
 
 ## 📁 Project Structure
 
-LiquidLabslApp/
+<pre> LiquidLabslApp/
 ├── Controllers/
 ├── Models/
 ├── Services/
@@ -43,7 +43,7 @@ LiquidLabslApp/
 │ └── create_tables.sql <-- SQL schema
 ├── appsettings.json
 ├── Program.cs
-├── README.md
+├── README.md </pre>
 
 ---
 
