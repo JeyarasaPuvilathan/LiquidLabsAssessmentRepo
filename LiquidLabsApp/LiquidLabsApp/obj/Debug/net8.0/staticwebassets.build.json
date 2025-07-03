@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "24KfkVuYhxlYfBWosnivr0tnMVbaujENcNu/K8+0EpI=",
+  "Source": "LiquidLabsApp",
+  "BasePath": "_content/LiquidLabsApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
