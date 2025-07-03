@@ -51,7 +51,7 @@ This project is a .NET 8 Web API that fetches user data from a public API (`http
 
 1. Open SQL Server Management Studio (SSMS) or your preferred SQL tool.
    
-2.Run the following SQL commands to create the database:
+ 2.Run the following SQL commands to create the database:
 
 <pre> CREATE DATABASE UserDb; GO USE UserDb; GO </pre>
 Run the table creation script from sql/create_tables.sql:
